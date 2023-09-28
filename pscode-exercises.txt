@@ -1,0 +1,45 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+Step 1: Start
+Step 2: Declare variables num1, num2, and sum of integer/numeric type.
+Step 3: Read inputs/values for num1, num2.
+Step 4: Calculate sum = num1 + num2
+Step 5: Stop
+
+// Exercise 2: Check if a Number is Even or Odd
+
+Step 1: Start
+Step 2: Declare variable num1 of integer/numeric type.
+Step 3: Read input/value for num1
+Step 4: If (num1 mod 2) equals 0
+Step 5:    Display "Number is Even"
+Step 6: Else
+Step 7:    Display "Number is Odd"
+Step 8: End
+
+// Exercise 3: 
+Write pseudo code that will perform the following.    
+
+a) Read in 5 separate numbers.   
+b) Calculate the average of the five numbers.
+c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+d) Write out the results found from steps b and c with a message describing what they are
+
+Step 1: Start
+Step 2: Declare and initialize a numeric array numArr of size 5 to store the numbers.
+Step 3: Declare and initialize variables sum, avg, min, and max.
+Step 4: For i from 1 to 5 (inclusive):
+   Step 4.1: Read input/value for numArr[i]
+   Step 4.2: Calculate sum = sum + numArr[i] 
+   Step 4.3: If i is 1, set min and max to numArr[i].
+   Step 4.4: Else, if numArr[i] is less than min, update min to numArr[i].
+   Step 4.5: Else, if numArr[i] is greater than max, update max to numArr[i].
+Step 5: Calculate the average as follows:
+   Step 5.1: Divide sum by 5 and store the result in the variable avg.
+Step 6: Display "The average of the five numbers is " avg.
+Step 7: Display "The smallest number among the five is " min.
+Step 8: Display "The largest number among the five is " max.
+Step 9: Stop
+
+-- END --
+
